@@ -248,3 +248,24 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: start;
+}
+
+.footer-pic {
+    margin-right: 10px;
+}
+
+.footer-search {
+    border: 2px solid sienna;
+}
+
+.search {
+    background-color: sienna;
+    border: 0px;
+    padding: 5px;
+}
