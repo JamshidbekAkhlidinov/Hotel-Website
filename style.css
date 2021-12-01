@@ -1,13 +1,38 @@
 * {
     padding: 0%;
     margin: 0%;
+    list-style: none;
+    text-decoration: none;
 }
 
 .container {
     width: 1140px;
-    margin: 0% auto;
+    margin: 0px auto;
 }
 
 .header {
     background-image: url(./img/menu1.png);
+    /* padding-top: 20px; */
+}
+
+.header-item-link {
+    color: black;
+    background-color: #E0B973;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header-title {
+    font-size: 22px;
+    display: block;
+}
+
+.title-sub {
+    font-size: 15px;
 }
