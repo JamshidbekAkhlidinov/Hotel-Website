@@ -226,15 +226,25 @@ body {
     margin-top: 200px;
     background-color: #14274A;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .footer-link {
     color: white;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
 }
 
 .footer-item {
     display: flex;
     text-align: left;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
