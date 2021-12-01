@@ -189,6 +189,7 @@ body {
 .buttom-list {
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .buttom-item {
@@ -221,4 +222,19 @@ body {
     height: 20px;
 }
 
-.buttom-img {}
+.footer {
+    margin-top: 200px;
+    background-color: #14274A;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    text-align: left;
+}
